@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*---index-----*/
+body {
+    font-family: "Exo", sans-serif;
+}
+
+header {
+    background-color: #5e422f; /* marrón */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: 110px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 0;
+    font-size: 40px !important;
+    color: green !important;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+.hero {
+    margin-top: 0px;
+    /* Evita que el hero se solape con el header */
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    color: #004d40;
+}
+
+
+.hero img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero h2 {
+    font-size: 3rem;
+    /* Título grande */
+    font-weight: bold;
+    /* Negrita */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    /* Sombra para destacar el texto */
+    margin-bottom: 15px;
+    /* Separación del texto siguiente */
+}
+
+.hero p {
+    font-size: 1.5rem;
+    /* Texto descriptivo más grande */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    /* Sombra ligera */
+    margin-bottom: 30px;
+    /* Separación antes de otros elementos */
+}
+
+
+.introduccion {
+    display: flex;
+    flex-direction: column;
+    /* Organiza los elementos en una columna */
+    align-items: center;
+    /* Centra los elementos horizontalmente */
+    text-align: center;
+    /* Centra el texto */
+    background-color: #f4f4f4;
+    /* Fondo gris claro para un diseño limpio */
+    padding: 20px 40px;
+    /* Espaciado interno */
+    gap: 20px;
+    /* Espaciado entre los elementos */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra ligera */
+    max-width: 800px;
+    /* Limita el ancho de la sección */
+    margin: 20px auto;
+    /* Centra la sección en la página */
+}
+
+.introduccion h2 {
+    font-size: 1.8rem;
+    /* Aumenta ligeramente el tamaño del texto */
+    font-weight: bold;
+    /* Negrita para destacar */
+    color: #333;
+    /* Un color oscuro neutro */
+    margin: 0;
+    /* Elimina márgenes adicionales */
+}
+
+.introduccion img {
+    max-width: 100%;
+    /* Imagen adaptable */
+    height: auto;
+    /* Mantiene la proporción */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil para resaltar la imagen */
+}
+
+.introduccion a {
+    font-size: 1rem;
+    /* Mantén el tamaño estándar del texto */
+    color: white;
+    /* Texto del enlace blanco */
+    background-color: #007BFF;
+    /* Fondo azul atractivo */
+    text-decoration: none;
+    /* Sin subrayado */
+    padding: 10px 20px;
+    /* Espaciado interno del botón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+}
+
+
+.Regiones {
+    text-align: center;
+}
+
+.Regiones h2 {
+    font-size: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.region-pair {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    gap: 30px;
+    justify-items: center;
+    margin: 20px;
+}
+
+.region {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+}
+
+.region img {
+    width: 100%;
+    /* Imagen ajustada al ancho del contenedor */
+    height: auto;
+    /* Mantiene la proporción */
+    border-radius: 8px;
+}
+
+
+.region h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.region p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.region a {
+    background-color: #007BFF;
+    /* Fondo azul atractivo */
+    text-decoration: none;
+    /* Sin subrayado */
+    padding: 10px 20px;
+    /* Espaciado interno del botón */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    font-weight: bold;
+    margin-top: 30px;
+    color: white;
+    transition: color 0.3s ease
+}
+
+.region a:hover {
+    background-color: #0056b3;
+    color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: palegreen;
+    /* Fondo agradable y claro */
+    text-align: center;
+    /* Centra el contenido */
+    padding: 20px;
+    /* Espaciado interno */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Espaciado entre elementos */
+    border-top: 3px solid #61e3b5;
+    /* Línea decorativa en la parte superior */
+}
+
+footer ul {
+    list-style: none;
+    /* Elimina puntos de lista */
+    display: flex;
+    /* Alineación en fila */
+    justify-content: center;
+    /* Centra los enlaces */
+    gap: 20px;
+    /* Espaciado entre elementos */
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li a {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: green;
+}
+
+footer img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+/*--explora--*/
+.carousel-inner img {
+    max-height: 400px; 
+    object-fit: cover; 
+    width: 100%; 
+}
+
+.card img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 660px) {
+
+    /* HEADER */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav li {
+        margin: 0;
+    }
+
+    /* HERO */
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+
+    /* INTRODUCCIÓN */
+    .introduccion {
+        padding: 15px;
+        max-width: 100%;
+    }
+
+    .introduccion img {
+        max-width: 100%;
+    }
+
+    .introduccion h2 {
+        font-size: 1.5rem;
+    }
+
+    .introduccion a {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    /* REGIONES */
+    .region-pair {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .region {
+        max-width: 100%;
+    }
+
+    .region h3 {
+        font-size: 1.2rem;
+    }
+
+    .region p {
+        font-size: 0.9rem;
+    }
+
+    .region a {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+
+    /* FOOTER */
+    footer {
+        text-align: center;
+        padding: 15px;
+    }
+
+    footer img {
+        width: 80px;
+        height: 80px;
+    }
+}

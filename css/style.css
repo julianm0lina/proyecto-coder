@@ -280,6 +280,77 @@ footer img {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
+/*--taxonomia--*/
+.taxonomia {
+    ext-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.taxonomia img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.taxonomia h2 {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.taxonomia p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* --- Sección Comunidad --- */
+.comunidad {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #e3f2fd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.comunidad h2 {
+    font-size: 2rem;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.comunidad p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.comunidad .boton {
+    font-size: 1rem;
+    color: white;
+    background-color: #007BFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.comunidad .boton:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
 @media (max-width: 660px) {
 
     /* HEADER */

@@ -146,26 +146,55 @@ main {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     margin: 20px auto;
+    overflow: hidden; // Para prevenir problemas con animaciones
 
     img {
         width: 100%;
         border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         margin-bottom: 20px;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 
     h2 {
         font-size: 2rem;
         color: #4CAF50;
         margin-bottom: 15px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     }
 
     p {
         font-size: 1rem;
         line-height: 1.5;
         color: #333;
+        transition: color 0.3s ease;
+
+        &:hover {
+            color: #4CAF50;
+        }
     }
 }
+
+@keyframes fadeInCustom {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.taxonomia {
+    animation: fadeInCustom 1s ease-in-out;
+}
+
 
 .comunidad {
     text-align: center;

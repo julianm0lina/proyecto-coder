@@ -1,0 +1,35 @@
+header {
+    background-color: #836f63;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: auto;
+    flex-wrap: wrap;
+
+    h1 img {
+        width: 120px;
+        height: auto;
+        text-align: center;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

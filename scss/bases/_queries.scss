@@ -1,80 +1,96 @@
 @media (max-width: 660px) {
-    /* HEADER */
-    header {
-      flex-direction: column;
-      align-items: center;
-      padding: 10px 15px;
-      height: auto;
-  
-      h1 {
-        font-size: 2rem;
-        margin-bottom: 2px;
-      }
-  
-      nav ul {
-        flex-direction: row;
-        gap: 10px;
-      }
-  
-      nav a {
-        font-size: 0.9rem;
-      }
+
+  /* HEADER */
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    height: auto;
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2px;
     }
-  
-    /* HERO */
-    .hero {
-      h2 {
-        font-size: 2rem;
-      }
-  
-      p {
-        font-size: 1.2rem;
-      }
-  
-      img {
-        max-width: 100%;
-      }
+
+    nav ul {
+      flex-direction: row;
+      gap: 10px;
     }
-  
-    /* INTRODUCCIÓN */
-    .introduccion {
-      padding: 15px;
-      max-width: 100%;
-  
-      img {
-        max-width: 100%;
-      }
-  
-      h2 {
-        font-size: 1.5rem;
-      }
-  
-      a {
-        font-size: 0.9rem;
-        padding: 8px 16px;
-      }
-    }
-  
-    /* REGIONES */
-    .region-pair {
-      display: grid;
-      grid-template-columns: 1fr; // Una tarjeta por fila
-      gap: 20px;
-  
-      .region {
-        max-width: 100%;
-      }
-    }
-  
-    /* FOOTER */
-    footer {
-      text-align: center;
-      padding: 15px;
-  
-      img {
-        width: 80px;
-        height: 80px;
-      }
+
+    nav a {
+      font-size: 0.9rem;
     }
   }
+
+  /* HERO */
+  .hero {
+    h2 {
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  /* INTRODUCCIÓN */
+  .introduccion {
+    padding: 15px;
+    max-width: 100%;
+
+    img {
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    a {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+
+  /* REGIONES */
   
+  .region-pair {
+    display: grid !important;
+    grid-template-columns: 1fr !important; // Una tarjeta por fila
+    gap: 20px !important;
+
+    .region {
+      max-width: 100% !important; 
+    }
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 15px;
+
+    img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  /*comunidad*/
+.foro, .eventos {
+  padding: 15px;
+
+  h3 {
+      font-size: 1.5rem;
+  }
+}
+
+.galeria .imagenes {
+  flex-direction: column;
+  align-items: center;
+ gap: 50px;
+}
+}
+
